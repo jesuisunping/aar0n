@@ -27,12 +27,12 @@
     margin-bottom: 20px; /* Space between the placeholder and footer */
     background-color: #f0f0f0; /* Optional: background color */
     text-align: left;
-    padding: 15px 75px; /* Add padding to push the text inside to the right */
+    padding: 15px 150px; /* Add padding to push the text inside to the right */
     font-size: larger;
 }
 
 footer {
-    height: 400px; /* Banner height */
+    height: 100px; /* Banner height */
     padding: 20px 0;
     margin: 0;
     background-color: #000;
@@ -100,4 +100,24 @@ ul {
     line-height: 1.25;
     font-size: larger;
 }
+
+
+.button {
+    display: inline-block;
+    background-color: rgb(255, 255, 206);
+    color: #333; /* Text color */
+    padding: 10px 20px; /* Space inside the boxes */
+    border-radius: 8px; /*Rounded corners */
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 1px 3px rgba(117, 117, 117, 0.4); /* Soft shadow */
+    transition: background-color 0.1s, color 0.1s;
+    font-weight: 530; /* Slightly thicker font */
+    font-size: larger;
+    }
+      
+.button:hover {
+    background-color: #000000; /* Light grey on hover */
+    color: #ffffff; /* Darker text on hover */
+}
+    
 

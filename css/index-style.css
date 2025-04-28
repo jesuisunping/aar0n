@@ -22,8 +22,8 @@
 }
   
 footer {
-    height: 75px; /* Banner height */
     margin: 0px;
+    height: 100px; /* Banner height */
     background-color: #000;
     color: beige;
 }
